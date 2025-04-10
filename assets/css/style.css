@@ -614,7 +614,7 @@ header img {
     /* Define o peso da fonte como 800 (negrito) */
 }
 
-/* EstilizaÃ§Ã£o do botÃ£o do WhatsApp */
+/* Estilizaçao do botao do WhatsApp */
 #whatsapp {
     position: fixed;
     /* Posicionamento fixo na tela */
@@ -623,9 +623,9 @@ header img {
     left: 92%;
     /* Distancia da esquerda */
     width: 120px;
-    /* Largura do botÃ£o */
+    /* Largura do botao */
     height: 120px;
-    /* Altura do botÃ£o */
+    /* Altura do botao */
     background-color: #25D366;
     /* Cor de fundo branca */
     border: 5px solid var(--cor1);
@@ -872,6 +872,7 @@ footer {
     border-radius: 50%;
     cursor: pointer;
     transition: background-color 0.3s;
+    
   }
   
   #btnTopo:hover {
