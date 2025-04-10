@@ -858,26 +858,30 @@ footer {
     scale: 1.2;
     /* Aumenta o tamanho do link para 1.2 vezes durante o hover */
 }
-#btnTopo {
-    display: none; /* Oculto por padrão */
+#btnvoltaraoTopo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
     position: fixed;
-    bottom: 30px;
-    right: 30px;
-    z-index: 100;
-    font-size: 18px;
+    bottom: 92%;
+    left: 92%;
+    width: 64px;
+    height: 64px;
     background-color: #333;
-    color: white;
     border: none;
-    padding: 12px 15px;
+    color :#ffffff;
     border-radius: 50%;
-    cursor: pointer;
-    transition: background-color 0.3s;
+    z-index: 100;
+    cursor: pointer; 
+    transition:background-color 0.3;
     
-  }
+     }
   
   #btnTopo:hover {
     background-color: #555;
   }
+  
+  
 
   
   
